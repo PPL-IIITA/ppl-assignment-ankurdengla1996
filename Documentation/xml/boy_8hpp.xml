@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="boy_8hpp" kind="file" language="C++">
+    <compoundname>boy.hpp</compoundname>
+    <includedby refid="couples_8cpp" local="yes">PPL Assignment/couples.cpp</includedby>
+    <includedby refid="gendata_8cpp" local="yes">PPL Assignment/gendata.cpp</includedby>
+    <includedby refid="givegifts_8cpp" local="yes">PPL Assignment/givegifts.cpp</includedby>
+    <includedby refid="q1_8cpp" local="yes">PPL Assignment/q1.cpp</includedby>
+    <includedby refid="q2_8cpp" local="yes">PPL Assignment/q2.cpp</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>PPL Assignment/gendata.cpp</label>
+        <link refid="gendata_8cpp"/>
+      </node>
+      <node id="4">
+        <label>PPL Assignment/givegifts.cpp</label>
+        <link refid="givegifts_8cpp"/>
+      </node>
+      <node id="2">
+        <label>PPL Assignment/couples.cpp</label>
+        <link refid="couples_8cpp"/>
+      </node>
+      <node id="5">
+        <label>PPL Assignment/q1.cpp</label>
+        <link refid="q1_8cpp"/>
+      </node>
+      <node id="1">
+        <label>PPL Assignment/boy.hpp</label>
+        <link refid="boy_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>PPL Assignment/q2.cpp</label>
+        <link refid="q2_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classboy" prot="public">boy</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5" refid="classboy" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classboy" kindref="compound">boy</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7" refid="classboy_1a1f5bd5201d830f7398b33f5330ab18d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classboy_1a1f5bd5201d830f7398b33f5330ab18d1" kindref="member">attr</ref>;<sp/></highlight></codeline>
+<codeline lineno="8" refid="classboy_1a71d1abd867065c974a0a5fc82816251e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classboy_1a71d1abd867065c974a0a5fc82816251e" kindref="member">intel</ref>;<sp/></highlight></codeline>
+<codeline lineno="9" refid="classboy_1a4010ffd0cd277dc18b46dfc02deb5373" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classboy_1a4010ffd0cd277dc18b46dfc02deb5373" kindref="member">girl_req</ref>;<sp/></highlight></codeline>
+<codeline lineno="11" refid="classboy_1a703fa58417037fd55aaa45942fb550a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="classboy_1a703fa58417037fd55aaa45942fb550a5" kindref="member">name</ref>[100];<sp/></highlight></codeline>
+<codeline lineno="12" refid="classboy_1a306008ea0ed9d913e5479fd7e6029291" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="classboy_1a306008ea0ed9d913e5479fd7e6029291" kindref="member">type</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="13" refid="classboy_1a80d6bd6642a612cf0428ab56a2098316" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classboy_1a80d6bd6642a612cf0428ab56a2098316" kindref="member">budget</ref>;<sp/></highlight></codeline>
+<codeline lineno="14" refid="classboy_1a41970db5115b231d0c631b072319e44d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classboy_1a41970db5115b231d0c631b072319e44d" kindref="member">is_single</ref>;<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="PPL Assignment/boy.hpp"/>
+  </compounddef>
+</doxygen>

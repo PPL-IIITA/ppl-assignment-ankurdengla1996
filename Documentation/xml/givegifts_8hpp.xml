@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="givegifts_8hpp" kind="file" language="C++">
+    <compoundname>givegifts.hpp</compoundname>
+    <includedby refid="couples_8cpp" local="yes">PPL Assignment/couples.cpp</includedby>
+    <includedby refid="gendata_8cpp" local="yes">PPL Assignment/gendata.cpp</includedby>
+    <includedby refid="givegifts_8cpp" local="yes">PPL Assignment/givegifts.cpp</includedby>
+    <invincdepgraph>
+      <node id="75">
+        <label>PPL Assignment/givegifts.hpp</label>
+        <link refid="givegifts_8hpp"/>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>PPL Assignment/gendata.cpp</label>
+        <link refid="gendata_8cpp"/>
+      </node>
+      <node id="78">
+        <label>PPL Assignment/givegifts.cpp</label>
+        <link refid="givegifts_8cpp"/>
+      </node>
+      <node id="76">
+        <label>PPL Assignment/couples.cpp</label>
+        <link refid="couples_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgive" prot="public">give</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4" refid="classgive" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgive" kindref="compound">give</ref>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgive_1a21ae8c333d4a779cf4ac2a36655b0461" kindref="member">miser_give</ref><sp/>(<sp/><ref refid="classgift" kindref="compound">gift</ref><sp/>g[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>budget,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maintenance<sp/>);<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgive_1a1089b321ade4334159db94d7b91bb957" kindref="member">generous_give</ref><sp/>(<sp/><ref refid="classgift" kindref="compound">gift</ref><sp/>g[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>budget,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maintenance<sp/>);<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgive_1a9ad787bee79cfb0b3357f7440b9dca95" kindref="member">geek_give</ref><sp/><sp/>(<sp/><ref refid="classgift" kindref="compound">gift</ref><sp/>g[],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>budget,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maintenance<sp/>);<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="PPL Assignment/givegifts.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+.TH "couples" 3 "Sun Feb 26 2017" "Version IIT2015510" "PPL Assignment" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+couples
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <couples\&.hpp>\fP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBcoup\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBcalc_boy_hap\fP (struct \fBcoup\fP c, int intel)"
+.br
+.ti -1c
+.RI "int \fBcalc_girl_hap\fP (struct \fBcoup\fP c)"
+.br
+.ti -1c
+.RI "int \fBcalc_comp\fP (struct \fBcoup\fP c, int bintel, int gintel, int battract, int gattract)"
+.br
+.ti -1c
+.RI "void \fBmake_couples\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_couples\fP ()"
+.br
+.ti -1c
+.RI "int \fBget_k_couples\fP (int k)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBboy\fP \fBb\fP [50]"
+.br
+.ti -1c
+.RI "\fBgirl\fP \fBg\fP [50]"
+.br
+.ti -1c
+.RI "\fBgift\fP \fBgif\fP [200]"
+.br
+.ti -1c
+.RI "int \fBcount\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class to form couples, store attributes of each couple formed, calculate happiness and compatibility 
+.SH "Member Function Documentation"
+.PP 
+.SS "int couples::calc_boy_hap (struct \fBcoup\fP c, int intel)"
+function to calculate happiness of boy 
+.SS "int couples::calc_comp (struct \fBcoup\fP c, int bintel, int gintel, int battract, int gattract)"
+function to calculate compatibility of couple 
+.SS "int couples::calc_girl_hap (struct \fBcoup\fP c)"
+function to calculate happiness of girl 
+.SS "int couples::get_k_couples (int k)"
+function to print k most compatible and happy couples 
+.SS "void couples::make_couples ()"
+function to assign proper partners to boys and girls 
+.SS "void couples::print_couples ()"
+function to print list of all couples formed 
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBboy\fP couples::b[50]"
+array of boys 
+.SS "int couples::count"
+counter for no\&. of couples formed 
+.SS "\fBgirl\fP couples::g[50]"
+array of girls 
+.SS "\fBgift\fP couples::gif[200]"
+array of gifts 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PPL Assignment from the source code\&.

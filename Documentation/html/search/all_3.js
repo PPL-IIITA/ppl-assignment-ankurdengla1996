@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['g',['g',['../classcouples.html#a4e5a2e8a3321a07c295dd488182d5ae1',1,'couples']]],
+  ['geek_5fgive',['geek_give',['../classgive.html#a9ad787bee79cfb0b3357f7440b9dca95',1,'give']]],
+  ['gendata_2ecpp',['gendata.cpp',['../gendata_8cpp.html',1,'']]],
+  ['gendata_2ehpp',['gendata.hpp',['../gendata_8hpp.html',1,'']]],
+  ['generate',['generate',['../classgenerate.html',1,'']]],
+  ['generate_5fboys',['generate_boys',['../classgenerate.html#ad657e5309e61b4a555fde45806262ced',1,'generate']]],
+  ['generate_5fgifts',['generate_gifts',['../classgenerate.html#a7ad6fdb15dc8952997dd9bca935201b0',1,'generate']]],
+  ['generate_5fgirls',['generate_girls',['../classgenerate.html#a86f4b6e0d8f4bb05f2b83726d747004c',1,'generate']]],
+  ['generous_5fgive',['generous_give',['../classgive.html#a1089b321ade4334159db94d7b91bb957',1,'give']]],
+  ['get_5fk_5fcouples',['get_k_couples',['../classcouples.html#af4c76bdad4ebed50ef84498ab71121dd',1,'couples']]],
+  ['gif',['gif',['../classcouples.html#a33c59b4e2c22609d7d47c467b4434bb1',1,'couples']]],
+  ['gift',['gift',['../classgift.html',1,'']]],
+  ['gift_2ehpp',['gift.hpp',['../gift_8hpp.html',1,'']]],
+  ['girl',['girl',['../classgirl.html',1,'girl'],['../structcouples_1_1coup.html#afeaf2b36af4d70a9d5c0fd74ce61935d',1,'couples::coup::girl()']]],
+  ['girl_2ehpp',['girl.hpp',['../girl_8hpp.html',1,'']]],
+  ['girl_5fhap',['girl_hap',['../structcouples_1_1coup.html#a3fd317a4e47db20f4f6e2872a3200aca',1,'couples::coup']]],
+  ['girl_5freq',['girl_req',['../classboy.html#a4010ffd0cd277dc18b46dfc02deb5373',1,'boy']]],
+  ['girl_5ftype',['girl_type',['../structcouples_1_1coup.html#a759eaa52ac035a975169313dd84bd26a',1,'couples::coup']]],
+  ['give',['give',['../classgive.html',1,'']]],
+  ['givegifts_2ecpp',['givegifts.cpp',['../givegifts_8cpp.html',1,'']]],
+  ['givegifts_2ehpp',['givegifts.hpp',['../givegifts_8hpp.html',1,'']]]
+];

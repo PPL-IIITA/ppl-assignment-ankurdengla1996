@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgive" kind="class" language="C++" prot="public">
+    <compoundname>give</compoundname>
+    <includes refid="givegifts_8hpp" local="no">givegifts.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgive_1a21ae8c333d4a779cf4ac2a36655b0461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int give::miser_give</definition>
+        <argsstring>(gift g[], int budget, int maintenance)</argsstring>
+        <name>miser_give</name>
+        <param>
+          <type><ref refid="classgift" kindref="compound">gift</ref></type>
+          <declname>g</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>budget</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maintenance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function for miser boyfriend </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/givegifts.hpp" line="6" column="1" bodyfile="PPL Assignment/givegifts.cpp" bodystart="15" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classgive_1a1089b321ade4334159db94d7b91bb957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int give::generous_give</definition>
+        <argsstring>(gift g[], int budget, int maintenance)</argsstring>
+        <name>generous_give</name>
+        <param>
+          <type><ref refid="classgift" kindref="compound">gift</ref></type>
+          <declname>g</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>budget</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maintenance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function for generous boyfriend </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/givegifts.hpp" line="7" column="1" bodyfile="PPL Assignment/givegifts.cpp" bodystart="34" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgive_1a9ad787bee79cfb0b3357f7440b9dca95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int give::geek_give</definition>
+        <argsstring>(gift g[], int budget, int maintenance)</argsstring>
+        <name>geek_give</name>
+        <param>
+          <type><ref refid="classgift" kindref="compound">gift</ref></type>
+          <declname>g</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>budget</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maintenance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function for geek boyfriend </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/givegifts.hpp" line="8" column="1" bodyfile="PPL Assignment/givegifts.cpp" bodystart="51" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to assign gifts to girlfriends according to specific type of boyfriend </para>    </detaileddescription>
+    <location file="PPL Assignment/givegifts.hpp" line="4" column="1" bodyfile="PPL Assignment/givegifts.hpp" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classgive_1a9ad787bee79cfb0b3357f7440b9dca95" prot="public" virt="non-virtual"><scope>give</scope><name>geek_give</name></member>
+      <member refid="classgive_1a1089b321ade4334159db94d7b91bb957" prot="public" virt="non-virtual"><scope>give</scope><name>generous_give</name></member>
+      <member refid="classgive_1a21ae8c333d4a779cf4ac2a36655b0461" prot="public" virt="non-virtual"><scope>give</scope><name>miser_give</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

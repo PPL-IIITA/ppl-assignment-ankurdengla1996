@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="gendata_8hpp" kind="file" language="C++">
+    <compoundname>gendata.hpp</compoundname>
+    <includedby refid="couples_8cpp" local="yes">PPL Assignment/couples.cpp</includedby>
+    <includedby refid="gendata_8cpp" local="yes">PPL Assignment/gendata.cpp</includedby>
+    <includedby refid="givegifts_8cpp" local="yes">PPL Assignment/givegifts.cpp</includedby>
+    <invincdepgraph>
+      <node id="45">
+        <label>PPL Assignment/gendata.cpp</label>
+        <link refid="gendata_8cpp"/>
+      </node>
+      <node id="46">
+        <label>PPL Assignment/givegifts.cpp</label>
+        <link refid="givegifts_8cpp"/>
+      </node>
+      <node id="44">
+        <label>PPL Assignment/couples.cpp</label>
+        <link refid="couples_8cpp"/>
+      </node>
+      <node id="43">
+        <label>PPL Assignment/gendata.hpp</label>
+        <link refid="gendata_8hpp"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgenerate" prot="public">generate</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="3" refid="classgenerate" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgenerate" kindref="compound">generate</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgenerate_1ad657e5309e61b4a555fde45806262ced" kindref="member">generate_boys</ref><sp/>(<sp/><ref refid="classboy" kindref="compound">boy</ref><sp/>b_array[]);<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgenerate_1a86f4b6e0d8f4bb05f2b83726d747004c" kindref="member">generate_girls</ref><sp/>(<sp/><ref refid="classgirl" kindref="compound">girl</ref><sp/>g_array[]<sp/>);<sp/><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgenerate_1a7ad6fdb15dc8952997dd9bca935201b0" kindref="member">generate_gifts</ref>(<sp/><ref refid="classgift" kindref="compound">gift</ref><sp/>g[]<sp/>);<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="PPL Assignment/gendata.hpp"/>
+  </compounddef>
+</doxygen>

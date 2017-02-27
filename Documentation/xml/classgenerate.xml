@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgenerate" kind="class" language="C++" prot="public">
+    <compoundname>generate</compoundname>
+    <includes refid="gendata_8hpp" local="no">gendata.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgenerate_1ad657e5309e61b4a555fde45806262ced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void generate::generate_boys</definition>
+        <argsstring>(boy b_array[])</argsstring>
+        <name>generate_boys</name>
+        <param>
+          <type><ref refid="classboy" kindref="compound">boy</ref></type>
+          <declname>b_array</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to generate a random list of boys with their attributes </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gendata.hpp" line="5" column="1" bodyfile="PPL Assignment/gendata.cpp" bodystart="16" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classgenerate_1a86f4b6e0d8f4bb05f2b83726d747004c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void generate::generate_girls</definition>
+        <argsstring>(girl g_array[])</argsstring>
+        <name>generate_girls</name>
+        <param>
+          <type><ref refid="classgirl" kindref="compound">girl</ref></type>
+          <declname>g_array</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to generate a random list of girls with their attributes </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gendata.hpp" line="6" column="1" bodyfile="PPL Assignment/gendata.cpp" bodystart="63" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classgenerate_1a7ad6fdb15dc8952997dd9bca935201b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void generate::generate_gifts</definition>
+        <argsstring>(gift g[])</argsstring>
+        <name>generate_gifts</name>
+        <param>
+          <type><ref refid="classgift" kindref="compound">gift</ref></type>
+          <declname>g</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to generate a random list of gifts with their attributes </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gendata.hpp" line="7" column="1" bodyfile="PPL Assignment/gendata.cpp" bodystart="128" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to generate a random list of boys, girls and gifts </para>    </detaileddescription>
+    <location file="PPL Assignment/gendata.hpp" line="3" column="1" bodyfile="PPL Assignment/gendata.hpp" bodystart="3" bodyend="8"/>
+    <listofallmembers>
+      <member refid="classgenerate_1ad657e5309e61b4a555fde45806262ced" prot="public" virt="non-virtual"><scope>generate</scope><name>generate_boys</name></member>
+      <member refid="classgenerate_1a7ad6fdb15dc8952997dd9bca935201b0" prot="public" virt="non-virtual"><scope>generate</scope><name>generate_gifts</name></member>
+      <member refid="classgenerate_1a86f4b6e0d8f4bb05f2b83726d747004c" prot="public" virt="non-virtual"><scope>generate</scope><name>generate_girls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

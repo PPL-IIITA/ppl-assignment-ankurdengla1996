@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_00a4cba73375a32d048a780148f950bf" kind="dir">
+    <compoundname>PPL Assignment</compoundname>
+    <innerfile refid="boy_8hpp">boy.hpp</innerfile>
+    <innerfile refid="couples_8cpp">couples.cpp</innerfile>
+    <innerfile refid="couples_8hpp">couples.hpp</innerfile>
+    <innerfile refid="gendata_8cpp">gendata.cpp</innerfile>
+    <innerfile refid="gendata_8hpp">gendata.hpp</innerfile>
+    <innerfile refid="gift_8hpp">gift.hpp</innerfile>
+    <innerfile refid="girl_8hpp">girl.hpp</innerfile>
+    <innerfile refid="givegifts_8cpp">givegifts.cpp</innerfile>
+    <innerfile refid="givegifts_8hpp">givegifts.hpp</innerfile>
+    <innerfile refid="q1_8cpp">q1.cpp</innerfile>
+    <innerfile refid="q2_8cpp">q2.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PPL Assignment/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structcouples_1_1coup" kind="struct" language="C++" prot="public">
+    <compoundname>couples::coup</compoundname>
+    <includes refid="couples_8hpp" local="no">couples.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcouples_1_1coup_1a1abe771ff67caf617ed329bd8d050c8d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char couples::coup::boy[100]</definition>
+        <argsstring>[100]</argsstring>
+        <name>boy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>name of boy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="15" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1afeaf2b36af4d70a9d5c0fd74ce61935d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char couples::coup::girl[100]</definition>
+        <argsstring>[100]</argsstring>
+        <name>girl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>name of girl </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="16" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1a791c776c2945315ad8642f6e952444cf" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char couples::coup::boy_type</definition>
+        <argsstring></argsstring>
+        <name>boy_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>geek, generous or miser </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="17" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1a759eaa52ac035a975169313dd84bd26a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char couples::coup::girl_type</definition>
+        <argsstring></argsstring>
+        <name>girl_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>desperate, normal or choosy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="18" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1a120a74dc1b6ac737617e3820c5d8a818" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int couples::coup::budget</definition>
+        <argsstring></argsstring>
+        <name>budget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>budget of boy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="19" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1a9668e063930614ca44a8ec91d74c9589" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int couples::coup::maint</definition>
+        <argsstring></argsstring>
+        <name>maint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maintenance budget of girl </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="20" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1a1022dbc668dd1d74c2eb66ee08b5874c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int couples::coup::boy_hap</definition>
+        <argsstring></argsstring>
+        <name>boy_hap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>happiness of boy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="21" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1a3fd317a4e47db20f4f6e2872a3200aca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int couples::coup::girl_hap</definition>
+        <argsstring></argsstring>
+        <name>girl_hap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>happiness of girl </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="22" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1a166c480dcb989b678baf48e6574420a7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int couples::coup::couple_hap</definition>
+        <argsstring></argsstring>
+        <name>couple_hap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>happiness of couple </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="23" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcouples_1_1coup_1ae7dc0f15ab9b211c11aa2e2e61e3800b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int couples::coup::compatibility</definition>
+        <argsstring></argsstring>
+        <name>compatibility</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compatibility of couple </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="24" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>structure to store details of each couple formed </para>    </detaileddescription>
+    <location file="PPL Assignment/couples.hpp" line="14" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="14" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structcouples_1_1coup_1a1abe771ff67caf617ed329bd8d050c8d" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>boy</name></member>
+      <member refid="structcouples_1_1coup_1a1022dbc668dd1d74c2eb66ee08b5874c" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>boy_hap</name></member>
+      <member refid="structcouples_1_1coup_1a791c776c2945315ad8642f6e952444cf" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>boy_type</name></member>
+      <member refid="structcouples_1_1coup_1a120a74dc1b6ac737617e3820c5d8a818" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>budget</name></member>
+      <member refid="structcouples_1_1coup_1ae7dc0f15ab9b211c11aa2e2e61e3800b" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>compatibility</name></member>
+      <member refid="structcouples_1_1coup_1a166c480dcb989b678baf48e6574420a7" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>couple_hap</name></member>
+      <member refid="structcouples_1_1coup_1afeaf2b36af4d70a9d5c0fd74ce61935d" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>girl</name></member>
+      <member refid="structcouples_1_1coup_1a3fd317a4e47db20f4f6e2872a3200aca" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>girl_hap</name></member>
+      <member refid="structcouples_1_1coup_1a759eaa52ac035a975169313dd84bd26a" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>girl_type</name></member>
+      <member refid="structcouples_1_1coup_1a9668e063930614ca44a8ec91d74c9589" prot="public" virt="non-virtual"><scope>couples::coup</scope><name>maint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

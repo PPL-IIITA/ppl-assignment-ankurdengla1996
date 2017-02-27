@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="couples_8hpp" kind="file" language="C++">
+    <compoundname>couples.hpp</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">math.h</includes>
+    <includedby refid="couples_8cpp" local="yes">PPL Assignment/couples.cpp</includedby>
+    <includedby refid="gendata_8cpp" local="yes">PPL Assignment/gendata.cpp</includedby>
+    <includedby refid="givegifts_8cpp" local="yes">PPL Assignment/givegifts.cpp</includedby>
+    <includedby refid="q1_8cpp" local="yes">PPL Assignment/q1.cpp</includedby>
+    <includedby refid="q2_8cpp" local="yes">PPL Assignment/q2.cpp</includedby>
+    <incdepgraph>
+      <node id="20">
+        <label>PPL Assignment/couples.hpp</label>
+        <link refid="couples_8hpp"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>stdlib.h</label>
+      </node>
+      <node id="22">
+        <label>math.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="23">
+        <label>PPL Assignment/couples.hpp</label>
+        <link refid="couples_8hpp"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>PPL Assignment/gendata.cpp</label>
+        <link refid="gendata_8cpp"/>
+      </node>
+      <node id="26">
+        <label>PPL Assignment/givegifts.cpp</label>
+        <link refid="givegifts_8cpp"/>
+      </node>
+      <node id="24">
+        <label>PPL Assignment/couples.cpp</label>
+        <link refid="couples_8cpp"/>
+      </node>
+      <node id="27">
+        <label>PPL Assignment/q1.cpp</label>
+        <link refid="q1_8cpp"/>
+      </node>
+      <node id="28">
+        <label>PPL Assignment/q2.cpp</label>
+        <link refid="q2_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classcouples" prot="public">couples</innerclass>
+    <innerclass refid="structcouples_1_1coup" prot="public">couples::coup</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classcouples" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcouples" kindref="compound">couples</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9" refid="classcouples_1a467d08e9148858f552b8bfd1655ac888" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classboy" kindref="compound">boy</ref><sp/><ref refid="classcouples_1a467d08e9148858f552b8bfd1655ac888" kindref="member">b</ref>[50];<sp/></highlight></codeline>
+<codeline lineno="10" refid="classcouples_1a4e5a2e8a3321a07c295dd488182d5ae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgirl" kindref="compound">girl</ref><sp/><ref refid="classcouples_1a4e5a2e8a3321a07c295dd488182d5ae1" kindref="member">g</ref>[50];<sp/></highlight></codeline>
+<codeline lineno="11" refid="classcouples_1a33c59b4e2c22609d7d47c467b4434bb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgift" kindref="compound">gift</ref><sp/><ref refid="classcouples_1a33c59b4e2c22609d7d47c467b4434bb1" kindref="member">gif</ref>[200];<sp/></highlight></codeline>
+<codeline lineno="12" refid="classcouples_1aa154166f508ecfb93efdd1fb7516ef20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classcouples_1aa154166f508ecfb93efdd1fb7516ef20" kindref="member">count</ref>;<sp/></highlight></codeline>
+<codeline lineno="14" refid="structcouples_1_1coup" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structcouples_1_1coup" kindref="compound">coup</ref><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="structcouples_1_1coup_1a1abe771ff67caf617ed329bd8d050c8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="classboy" kindref="compound">boy</ref>[100];<sp/></highlight></codeline>
+<codeline lineno="16" refid="structcouples_1_1coup_1afeaf2b36af4d70a9d5c0fd74ce61935d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="classgirl" kindref="compound">girl</ref>[100];<sp/></highlight></codeline>
+<codeline lineno="17" refid="structcouples_1_1coup_1a791c776c2945315ad8642f6e952444cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1a791c776c2945315ad8642f6e952444cf" kindref="member">boy_type</ref>;<sp/></highlight></codeline>
+<codeline lineno="18" refid="structcouples_1_1coup_1a759eaa52ac035a975169313dd84bd26a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1a759eaa52ac035a975169313dd84bd26a" kindref="member">girl_type</ref>;<sp/></highlight></codeline>
+<codeline lineno="19" refid="structcouples_1_1coup_1a120a74dc1b6ac737617e3820c5d8a818" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1a120a74dc1b6ac737617e3820c5d8a818" kindref="member">budget</ref>;<sp/></highlight></codeline>
+<codeline lineno="20" refid="structcouples_1_1coup_1a9668e063930614ca44a8ec91d74c9589" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1a9668e063930614ca44a8ec91d74c9589" kindref="member">maint</ref>;<sp/></highlight></codeline>
+<codeline lineno="21" refid="structcouples_1_1coup_1a1022dbc668dd1d74c2eb66ee08b5874c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1a1022dbc668dd1d74c2eb66ee08b5874c" kindref="member">boy_hap</ref>;<sp/></highlight></codeline>
+<codeline lineno="22" refid="structcouples_1_1coup_1a3fd317a4e47db20f4f6e2872a3200aca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1a3fd317a4e47db20f4f6e2872a3200aca" kindref="member">girl_hap</ref>;<sp/></highlight></codeline>
+<codeline lineno="23" refid="structcouples_1_1coup_1a166c480dcb989b678baf48e6574420a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1a166c480dcb989b678baf48e6574420a7" kindref="member">couple_hap</ref>;<sp/></highlight></codeline>
+<codeline lineno="24" refid="structcouples_1_1coup_1ae7dc0f15ab9b211c11aa2e2e61e3800b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup_1ae7dc0f15ab9b211c11aa2e2e61e3800b" kindref="member">compatibility</ref>;<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classcouples_1a55aa04a34886a1c1b46fcfdbd2b400b5" kindref="member">calc_boy_hap</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup" kindref="compound">coup</ref><sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>intel);<sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classcouples_1a381ac8c4bf63ba171dcbaec0e8da4d09" kindref="member">calc_girl_hap</ref>(<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup" kindref="compound">coup</ref><sp/>c<sp/>);<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classcouples_1a6fb93ee889269a6225cedb618f96b9d0" kindref="member">calc_comp</ref>(<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structcouples_1_1coup" kindref="compound">coup</ref><sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bintel,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gintel,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>battract,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gattract<sp/>);<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcouples_1a5ed789c462f864bfd2ca734c49f5a9f2" kindref="member">make_couples</ref><sp/>();<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcouples_1a7740f922a426f0f9b64bf284be3eb251" kindref="member">print_couples</ref><sp/>();<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classcouples_1af4c76bdad4ebed50ef84498ab71121dd" kindref="member">get_k_couples</ref><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k<sp/>);<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="PPL Assignment/couples.hpp"/>
+  </compounddef>
+</doxygen>

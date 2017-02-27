@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classboy" kind="class" language="C++" prot="public">
+    <compoundname>boy</compoundname>
+    <includes refid="boy_8hpp" local="no">boy.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classboy_1a1f5bd5201d830f7398b33f5330ab18d1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int boy::attr</definition>
+        <argsstring></argsstring>
+        <name>attr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>from 0 to 100 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/boy.hpp" line="7" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classboy_1a71d1abd867065c974a0a5fc82816251e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int boy::intel</definition>
+        <argsstring></argsstring>
+        <name>intel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>from 0 to 100 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/boy.hpp" line="8" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classboy_1a4010ffd0cd277dc18b46dfc02deb5373" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int boy::girl_req</definition>
+        <argsstring></argsstring>
+        <name>girl_req</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>girl attractiveness from 0 to 100 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/boy.hpp" line="9" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classboy_1a703fa58417037fd55aaa45942fb550a5" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char boy::name[100]</definition>
+        <argsstring>[100]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/boy.hpp" line="11" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classboy_1a306008ea0ed9d913e5479fd7e6029291" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char boy::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&apos;m&apos; for miser, &apos;g&apos; for generous, &apos;G&apos; for geek </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/boy.hpp" line="12" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classboy_1a80d6bd6642a612cf0428ab56a2098316" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int boy::budget</definition>
+        <argsstring></argsstring>
+        <name>budget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>from 0 to 10000 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/boy.hpp" line="13" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classboy_1a41970db5115b231d0c631b072319e44d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int boy::is_single</definition>
+        <argsstring></argsstring>
+        <name>is_single</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>1 for single, 0 for not </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/boy.hpp" line="14" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to store attributes of each boy namely attractiveness, intelligence, girl requirement, name, type, budget, is single </para>    </detaileddescription>
+    <location file="PPL Assignment/boy.hpp" line="5" column="1" bodyfile="PPL Assignment/boy.hpp" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classboy_1a1f5bd5201d830f7398b33f5330ab18d1" prot="public" virt="non-virtual"><scope>boy</scope><name>attr</name></member>
+      <member refid="classboy_1a80d6bd6642a612cf0428ab56a2098316" prot="public" virt="non-virtual"><scope>boy</scope><name>budget</name></member>
+      <member refid="classboy_1a4010ffd0cd277dc18b46dfc02deb5373" prot="public" virt="non-virtual"><scope>boy</scope><name>girl_req</name></member>
+      <member refid="classboy_1a71d1abd867065c974a0a5fc82816251e" prot="public" virt="non-virtual"><scope>boy</scope><name>intel</name></member>
+      <member refid="classboy_1a41970db5115b231d0c631b072319e44d" prot="public" virt="non-virtual"><scope>boy</scope><name>is_single</name></member>
+      <member refid="classboy_1a703fa58417037fd55aaa45942fb550a5" prot="public" virt="non-virtual"><scope>boy</scope><name>name</name></member>
+      <member refid="classboy_1a306008ea0ed9d913e5479fd7e6029291" prot="public" virt="non-virtual"><scope>boy</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

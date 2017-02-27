@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgift" kind="class" language="C++" prot="public">
+    <compoundname>gift</compoundname>
+    <includes refid="gift_8hpp" local="no">gift.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgift_1a448ca0db0e3f1a39c489630369d2bde3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gift::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gift id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="6" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgift_1aaa535c180c93525e0b0452c660ac886d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gift::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&apos;e&apos; for essential, &apos;l&apos; for luxury, &apos;u&apos; for utility </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="7" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgift_1a0b47f2fdc5eb88daa269cc827324c931" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gift::price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>price of gift </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="8" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgift_1aa9e6fcf5bc68d7f151e7a853a25dcbeb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gift::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>value of gift </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="9" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgift_1a8fa920d81b0de62e1ac86e06448a9e59" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gift::lux_rate</definition>
+        <argsstring></argsstring>
+        <name>lux_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>luxury rate (only for luxury gifts) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="11" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgift_1a9fc91faf6d0032fd7a68419b982628e4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gift::lux_diff</definition>
+        <argsstring></argsstring>
+        <name>lux_diff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>difficulty in obtaining (only for luxury gifts) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="12" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgift_1a2fe42df4de2504a0bc88376682a1330c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gift::util_val</definition>
+        <argsstring></argsstring>
+        <name>util_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>utility value (only for utility gifts) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="14" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgift_1ae35e64b6107776d8affabb9c041cab61" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gift::util_class</definition>
+        <argsstring></argsstring>
+        <name>util_class</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>utility class (only for utility gifts) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/gift.hpp" line="15" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to store gifts and their attributes like id, price, value, type </para>    </detaileddescription>
+    <location file="PPL Assignment/gift.hpp" line="4" column="1" bodyfile="PPL Assignment/gift.hpp" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classgift_1a448ca0db0e3f1a39c489630369d2bde3" prot="public" virt="non-virtual"><scope>gift</scope><name>id</name></member>
+      <member refid="classgift_1a9fc91faf6d0032fd7a68419b982628e4" prot="public" virt="non-virtual"><scope>gift</scope><name>lux_diff</name></member>
+      <member refid="classgift_1a8fa920d81b0de62e1ac86e06448a9e59" prot="public" virt="non-virtual"><scope>gift</scope><name>lux_rate</name></member>
+      <member refid="classgift_1a0b47f2fdc5eb88daa269cc827324c931" prot="public" virt="non-virtual"><scope>gift</scope><name>price</name></member>
+      <member refid="classgift_1aaa535c180c93525e0b0452c660ac886d" prot="public" virt="non-virtual"><scope>gift</scope><name>type</name></member>
+      <member refid="classgift_1ae35e64b6107776d8affabb9c041cab61" prot="public" virt="non-virtual"><scope>gift</scope><name>util_class</name></member>
+      <member refid="classgift_1a2fe42df4de2504a0bc88376682a1330c" prot="public" virt="non-virtual"><scope>gift</scope><name>util_val</name></member>
+      <member refid="classgift_1aa9e6fcf5bc68d7f151e7a853a25dcbeb" prot="public" virt="non-virtual"><scope>gift</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

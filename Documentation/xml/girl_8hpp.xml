@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="girl_8hpp" kind="file" language="C++">
+    <compoundname>girl.hpp</compoundname>
+    <includedby refid="couples_8cpp" local="yes">PPL Assignment/couples.cpp</includedby>
+    <includedby refid="gendata_8cpp" local="yes">PPL Assignment/gendata.cpp</includedby>
+    <includedby refid="givegifts_8cpp" local="yes">PPL Assignment/givegifts.cpp</includedby>
+    <includedby refid="q1_8cpp" local="yes">PPL Assignment/q1.cpp</includedby>
+    <includedby refid="q2_8cpp" local="yes">PPL Assignment/q2.cpp</includedby>
+    <invincdepgraph>
+      <node id="57">
+        <label>PPL Assignment/gendata.cpp</label>
+        <link refid="gendata_8cpp"/>
+      </node>
+      <node id="55">
+        <label>PPL Assignment/girl.hpp</label>
+        <link refid="girl_8hpp"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>PPL Assignment/givegifts.cpp</label>
+        <link refid="givegifts_8cpp"/>
+      </node>
+      <node id="56">
+        <label>PPL Assignment/couples.cpp</label>
+        <link refid="couples_8cpp"/>
+      </node>
+      <node id="59">
+        <label>PPL Assignment/q1.cpp</label>
+        <link refid="q1_8cpp"/>
+      </node>
+      <node id="60">
+        <label>PPL Assignment/q2.cpp</label>
+        <link refid="q2_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgirl" prot="public">girl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5" refid="classgirl" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgirl" kindref="compound">girl</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7" refid="classgirl_1a4251224ffb6c674917cd49b4b5ac5762" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgirl_1a4251224ffb6c674917cd49b4b5ac5762" kindref="member">attr</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="8" refid="classgirl_1a909600ba1a2bd73d658c59421e6634f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgirl_1a909600ba1a2bd73d658c59421e6634f8" kindref="member">intel</ref>;<sp/></highlight></codeline>
+<codeline lineno="9" refid="classgirl_1a4a3142c6754aeeb39d990b9dc0669376" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="classgirl_1a4a3142c6754aeeb39d990b9dc0669376" kindref="member">boy_type</ref>;<sp/></highlight></codeline>
+<codeline lineno="11" refid="classgirl_1afa8c09d42cab3f3508ccf4d7a0091959" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="classgirl_1afa8c09d42cab3f3508ccf4d7a0091959" kindref="member">name</ref>[100];<sp/></highlight></codeline>
+<codeline lineno="12" refid="classgirl_1a65688d401c88cfaa9632d4f7758f02d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="classgirl_1a65688d401c88cfaa9632d4f7758f02d1" kindref="member">type</ref>;<sp/></highlight></codeline>
+<codeline lineno="13" refid="classgirl_1a27b54c74740855be0570b951ec43ec91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgirl_1a27b54c74740855be0570b951ec43ec91" kindref="member">maint</ref>;<sp/></highlight></codeline>
+<codeline lineno="14" refid="classgirl_1a1e490c984ffcfef201b8e80c192d47d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgirl_1a1e490c984ffcfef201b8e80c192d47d3" kindref="member">is_single</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="PPL Assignment/girl.hpp"/>
+  </compounddef>
+</doxygen>

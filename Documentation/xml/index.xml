@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classboy" kind="class"><name>boy</name>
+    <member refid="classboy_1a1f5bd5201d830f7398b33f5330ab18d1" kind="variable"><name>attr</name></member>
+    <member refid="classboy_1a71d1abd867065c974a0a5fc82816251e" kind="variable"><name>intel</name></member>
+    <member refid="classboy_1a4010ffd0cd277dc18b46dfc02deb5373" kind="variable"><name>girl_req</name></member>
+    <member refid="classboy_1a703fa58417037fd55aaa45942fb550a5" kind="variable"><name>name</name></member>
+    <member refid="classboy_1a306008ea0ed9d913e5479fd7e6029291" kind="variable"><name>type</name></member>
+    <member refid="classboy_1a80d6bd6642a612cf0428ab56a2098316" kind="variable"><name>budget</name></member>
+    <member refid="classboy_1a41970db5115b231d0c631b072319e44d" kind="variable"><name>is_single</name></member>
+  </compound>
+  <compound refid="structcouples_1_1coup" kind="struct"><name>couples::coup</name>
+    <member refid="structcouples_1_1coup_1a1abe771ff67caf617ed329bd8d050c8d" kind="variable"><name>boy</name></member>
+    <member refid="structcouples_1_1coup_1afeaf2b36af4d70a9d5c0fd74ce61935d" kind="variable"><name>girl</name></member>
+    <member refid="structcouples_1_1coup_1a791c776c2945315ad8642f6e952444cf" kind="variable"><name>boy_type</name></member>
+    <member refid="structcouples_1_1coup_1a759eaa52ac035a975169313dd84bd26a" kind="variable"><name>girl_type</name></member>
+    <member refid="structcouples_1_1coup_1a120a74dc1b6ac737617e3820c5d8a818" kind="variable"><name>budget</name></member>
+    <member refid="structcouples_1_1coup_1a9668e063930614ca44a8ec91d74c9589" kind="variable"><name>maint</name></member>
+    <member refid="structcouples_1_1coup_1a1022dbc668dd1d74c2eb66ee08b5874c" kind="variable"><name>boy_hap</name></member>
+    <member refid="structcouples_1_1coup_1a3fd317a4e47db20f4f6e2872a3200aca" kind="variable"><name>girl_hap</name></member>
+    <member refid="structcouples_1_1coup_1a166c480dcb989b678baf48e6574420a7" kind="variable"><name>couple_hap</name></member>
+    <member refid="structcouples_1_1coup_1ae7dc0f15ab9b211c11aa2e2e61e3800b" kind="variable"><name>compatibility</name></member>
+  </compound>
+  <compound refid="classcouples" kind="class"><name>couples</name>
+    <member refid="classcouples_1a467d08e9148858f552b8bfd1655ac888" kind="variable"><name>b</name></member>
+    <member refid="classcouples_1a4e5a2e8a3321a07c295dd488182d5ae1" kind="variable"><name>g</name></member>
+    <member refid="classcouples_1a33c59b4e2c22609d7d47c467b4434bb1" kind="variable"><name>gif</name></member>
+    <member refid="classcouples_1aa154166f508ecfb93efdd1fb7516ef20" kind="variable"><name>count</name></member>
+    <member refid="classcouples_1a55aa04a34886a1c1b46fcfdbd2b400b5" kind="function"><name>calc_boy_hap</name></member>
+    <member refid="classcouples_1a381ac8c4bf63ba171dcbaec0e8da4d09" kind="function"><name>calc_girl_hap</name></member>
+    <member refid="classcouples_1a6fb93ee889269a6225cedb618f96b9d0" kind="function"><name>calc_comp</name></member>
+    <member refid="classcouples_1a5ed789c462f864bfd2ca734c49f5a9f2" kind="function"><name>make_couples</name></member>
+    <member refid="classcouples_1a7740f922a426f0f9b64bf284be3eb251" kind="function"><name>print_couples</name></member>
+    <member refid="classcouples_1af4c76bdad4ebed50ef84498ab71121dd" kind="function"><name>get_k_couples</name></member>
+  </compound>
+  <compound refid="classgenerate" kind="class"><name>generate</name>
+    <member refid="classgenerate_1ad657e5309e61b4a555fde45806262ced" kind="function"><name>generate_boys</name></member>
+    <member refid="classgenerate_1a86f4b6e0d8f4bb05f2b83726d747004c" kind="function"><name>generate_girls</name></member>
+    <member refid="classgenerate_1a7ad6fdb15dc8952997dd9bca935201b0" kind="function"><name>generate_gifts</name></member>
+  </compound>
+  <compound refid="classgift" kind="class"><name>gift</name>
+    <member refid="classgift_1a448ca0db0e3f1a39c489630369d2bde3" kind="variable"><name>id</name></member>
+    <member refid="classgift_1aaa535c180c93525e0b0452c660ac886d" kind="variable"><name>type</name></member>
+    <member refid="classgift_1a0b47f2fdc5eb88daa269cc827324c931" kind="variable"><name>price</name></member>
+    <member refid="classgift_1aa9e6fcf5bc68d7f151e7a853a25dcbeb" kind="variable"><name>value</name></member>
+    <member refid="classgift_1a8fa920d81b0de62e1ac86e06448a9e59" kind="variable"><name>lux_rate</name></member>
+    <member refid="classgift_1a9fc91faf6d0032fd7a68419b982628e4" kind="variable"><name>lux_diff</name></member>
+    <member refid="classgift_1a2fe42df4de2504a0bc88376682a1330c" kind="variable"><name>util_val</name></member>
+    <member refid="classgift_1ae35e64b6107776d8affabb9c041cab61" kind="variable"><name>util_class</name></member>
+  </compound>
+  <compound refid="classgirl" kind="class"><name>girl</name>
+    <member refid="classgirl_1a4251224ffb6c674917cd49b4b5ac5762" kind="variable"><name>attr</name></member>
+    <member refid="classgirl_1a909600ba1a2bd73d658c59421e6634f8" kind="variable"><name>intel</name></member>
+    <member refid="classgirl_1a4a3142c6754aeeb39d990b9dc0669376" kind="variable"><name>boy_type</name></member>
+    <member refid="classgirl_1afa8c09d42cab3f3508ccf4d7a0091959" kind="variable"><name>name</name></member>
+    <member refid="classgirl_1a65688d401c88cfaa9632d4f7758f02d1" kind="variable"><name>type</name></member>
+    <member refid="classgirl_1a27b54c74740855be0570b951ec43ec91" kind="variable"><name>maint</name></member>
+    <member refid="classgirl_1a1e490c984ffcfef201b8e80c192d47d3" kind="variable"><name>is_single</name></member>
+  </compound>
+  <compound refid="classgive" kind="class"><name>give</name>
+    <member refid="classgive_1a21ae8c333d4a779cf4ac2a36655b0461" kind="function"><name>miser_give</name></member>
+    <member refid="classgive_1a1089b321ade4334159db94d7b91bb957" kind="function"><name>generous_give</name></member>
+    <member refid="classgive_1a9ad787bee79cfb0b3357f7440b9dca95" kind="function"><name>geek_give</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="boy_8hpp" kind="file"><name>boy.hpp</name>
+  </compound>
+  <compound refid="couples_8cpp" kind="file"><name>couples.cpp</name>
+  </compound>
+  <compound refid="couples_8hpp" kind="file"><name>couples.hpp</name>
+  </compound>
+  <compound refid="gendata_8cpp" kind="file"><name>gendata.cpp</name>
+  </compound>
+  <compound refid="gendata_8hpp" kind="file"><name>gendata.hpp</name>
+  </compound>
+  <compound refid="gift_8hpp" kind="file"><name>gift.hpp</name>
+  </compound>
+  <compound refid="girl_8hpp" kind="file"><name>girl.hpp</name>
+  </compound>
+  <compound refid="givegifts_8cpp" kind="file"><name>givegifts.cpp</name>
+  </compound>
+  <compound refid="givegifts_8hpp" kind="file"><name>givegifts.hpp</name>
+  </compound>
+  <compound refid="q1_8cpp" kind="file"><name>q1.cpp</name>
+    <member refid="q1_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="q2_8cpp" kind="file"><name>q2.cpp</name>
+    <member refid="q2_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_00a4cba73375a32d048a780148f950bf" kind="dir"><name>PPL Assignment</name>
+  </compound>
+</doxygenindex>

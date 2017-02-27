@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcouples" kind="class" language="C++" prot="public">
+    <compoundname>couples</compoundname>
+    <includes refid="couples_8hpp" local="no">couples.hpp</includes>
+    <innerclass refid="structcouples_1_1coup" prot="public">couples::coup</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcouples_1a467d08e9148858f552b8bfd1655ac888" prot="public" static="no" mutable="no">
+        <type><ref refid="classboy" kindref="compound">boy</ref></type>
+        <definition>boy couples::b[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>array of boys </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="9" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcouples_1a4e5a2e8a3321a07c295dd488182d5ae1" prot="public" static="no" mutable="no">
+        <type><ref refid="classgirl" kindref="compound">girl</ref></type>
+        <definition>girl couples::g[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>array of girls </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="10" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcouples_1a33c59b4e2c22609d7d47c467b4434bb1" prot="public" static="no" mutable="no">
+        <type><ref refid="classgift" kindref="compound">gift</ref></type>
+        <definition>gift couples::gif[200]</definition>
+        <argsstring>[200]</argsstring>
+        <name>gif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>array of gifts </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="11" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcouples_1aa154166f508ecfb93efdd1fb7516ef20" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int couples::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counter for no. of couples formed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="12" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcouples_1a55aa04a34886a1c1b46fcfdbd2b400b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int couples::calc_boy_hap</definition>
+        <argsstring>(struct coup c, int intel)</argsstring>
+        <name>calc_boy_hap</name>
+        <param>
+          <type>struct <ref refid="structcouples_1_1coup" kindref="compound">coup</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to calculate happiness of boy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="27" column="1" bodyfile="PPL Assignment/couples.cpp" bodystart="15" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcouples_1a381ac8c4bf63ba171dcbaec0e8da4d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int couples::calc_girl_hap</definition>
+        <argsstring>(struct coup c)</argsstring>
+        <name>calc_girl_hap</name>
+        <param>
+          <type>struct <ref refid="structcouples_1_1coup" kindref="compound">coup</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to calculate happiness of girl </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="28" column="1" bodyfile="PPL Assignment/couples.cpp" bodystart="31" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classcouples_1a6fb93ee889269a6225cedb618f96b9d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int couples::calc_comp</definition>
+        <argsstring>(struct coup c, int bintel, int gintel, int battract, int gattract)</argsstring>
+        <name>calc_comp</name>
+        <param>
+          <type>struct <ref refid="structcouples_1_1coup" kindref="compound">coup</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bintel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gintel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>battract</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gattract</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to calculate compatibility of couple </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="30" column="1" bodyfile="PPL Assignment/couples.cpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classcouples_1a5ed789c462f864bfd2ca734c49f5a9f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void couples::make_couples</definition>
+        <argsstring>()</argsstring>
+        <name>make_couples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to assign proper partners to boys and girls </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="33" column="1" bodyfile="PPL Assignment/couples.cpp" bodystart="61" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classcouples_1a7740f922a426f0f9b64bf284be3eb251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void couples::print_couples</definition>
+        <argsstring>()</argsstring>
+        <name>print_couples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to print list of all couples formed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="34" column="1" bodyfile="PPL Assignment/couples.cpp" bodystart="107" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classcouples_1af4c76bdad4ebed50ef84498ab71121dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int couples::get_k_couples</definition>
+        <argsstring>(int k)</argsstring>
+        <name>get_k_couples</name>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>function to print k most compatible and happy couples </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PPL Assignment/couples.hpp" line="36" column="1" bodyfile="PPL Assignment/couples.cpp" bodystart="122" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to form couples, store attributes of each couple formed, calculate happiness and compatibility </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>gift</label>
+        <link refid="classgift"/>
+      </node>
+      <node id="5">
+        <label>couples</label>
+        <link refid="classcouples"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>g</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>gif</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>girl</label>
+        <link refid="classgirl"/>
+      </node>
+      <node id="6">
+        <label>boy</label>
+        <link refid="classboy"/>
+      </node>
+    </collaborationgraph>
+    <location file="PPL Assignment/couples.hpp" line="7" column="1" bodyfile="PPL Assignment/couples.hpp" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classcouples_1a467d08e9148858f552b8bfd1655ac888" prot="public" virt="non-virtual"><scope>couples</scope><name>b</name></member>
+      <member refid="classcouples_1a55aa04a34886a1c1b46fcfdbd2b400b5" prot="public" virt="non-virtual"><scope>couples</scope><name>calc_boy_hap</name></member>
+      <member refid="classcouples_1a6fb93ee889269a6225cedb618f96b9d0" prot="public" virt="non-virtual"><scope>couples</scope><name>calc_comp</name></member>
+      <member refid="classcouples_1a381ac8c4bf63ba171dcbaec0e8da4d09" prot="public" virt="non-virtual"><scope>couples</scope><name>calc_girl_hap</name></member>
+      <member refid="classcouples_1aa154166f508ecfb93efdd1fb7516ef20" prot="public" virt="non-virtual"><scope>couples</scope><name>count</name></member>
+      <member refid="classcouples_1a4e5a2e8a3321a07c295dd488182d5ae1" prot="public" virt="non-virtual"><scope>couples</scope><name>g</name></member>
+      <member refid="classcouples_1af4c76bdad4ebed50ef84498ab71121dd" prot="public" virt="non-virtual"><scope>couples</scope><name>get_k_couples</name></member>
+      <member refid="classcouples_1a33c59b4e2c22609d7d47c467b4434bb1" prot="public" virt="non-virtual"><scope>couples</scope><name>gif</name></member>
+      <member refid="classcouples_1a5ed789c462f864bfd2ca734c49f5a9f2" prot="public" virt="non-virtual"><scope>couples</scope><name>make_couples</name></member>
+      <member refid="classcouples_1a7740f922a426f0f9b64bf284be3eb251" prot="public" virt="non-virtual"><scope>couples</scope><name>print_couples</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
